@@ -1,1 +1,1 @@
-https://github.io/ayazhm/online-zoo
+https://ayazhm.github.io/online-zoo/pages/main/
