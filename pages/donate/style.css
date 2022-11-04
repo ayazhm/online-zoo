@@ -8,7 +8,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    position: absolute;
+
 }
 
 .logo-image{
@@ -87,78 +87,10 @@ body{
 /*Section intro styles start*/
 
 .intro{
-    height: 780px;
-    background: url(../../assets/images/panda.png) no-repeat center;
-    background-size: cover;
-}
+    height: 390px;
+    background: url(../../assets/images/panda_2bg.png) no-repeat;
+    background-size: 1600px, 390px;
 
-h2.introduction{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 106.496px;
-    line-height: 80px;
-    /* or 80px */
-
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    max-width: 500.31px;
-    height: 400px;
-    color:#FFFFFF
-}
-.title{
-    margin-top: 166px;
-    position: absolute;
-    margin-left: 660px;
-}
-
-
-.toyellow{
-    color: #FFEE2E;
-}
-
-.ellipse{
-    width: 465px;
-    height: 465px;
-    border-radius: 50%;
-    
-    /* orange */
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    margin-top: 92px;
-    margin-left: 587px;
-    position: absolute;
-}
-
-.overlay{
-    position: relative;
-}
-.main-button{
-    width: 298px;
-    height: 54px;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-    border-radius: 25px;
-    border-width: 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 626px;
-    margin-left: 763px;
-    position: absolute;
-    
-}
-.interactive:hover{
-    background: #E47209;
-}
-
-.interactive:active{
-    background: #4B9200;
-}
-.interactive:disabled{
-    background: #767474;;
 }
 
 /*footer*/
@@ -206,6 +138,7 @@ footer{
 
     color: #FFFFFF;
     margin-bottom: 44px;
+
 }
 
 .media-icon{
@@ -305,14 +238,14 @@ footer{
 }
 .figma-author, .rs-school{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 100;
-font-size: 16px;
-line-height: 130%;
-/* identical to box height, or 21px */
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .footer-item:last-child{
@@ -323,4 +256,341 @@ color: #FFFFFF;
     margin-top: auto;
     margin-left: auto;
 }
+
+.donation{
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+.help{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height, or 47px */
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.help-paragr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.donate-info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+
+
+    /* or3 */
+
+    color: #FE9013;
+    margin-bottom: 60px;
+}
+
+.peek-box{
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+
+}
+
+.peek-head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+
+    /* or3 */
+
+    color: #FE9013;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.peek-subhead{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #333B41;
+    margin-bottom: 60px;
+}
+
+.mini-wrap{
+    max-width: 976px;
+    margin: 0 auto;
+}
+.count-head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 11px;
+}
+.count-descr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #333B41;
+}
+
+.panda-count{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+.multi{
+    margin-left: 11px;
+    height: 14px;
+    width: 14px;
+}
+.panda-icon{
+    width: 284px;
+    height: 246px;
+    margin-left: 64px;
+}
+.amount-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #000000;
+    margin-bottom: 10px;
+}
+.bottom-m{
+    padding-bottom: 62px;
+}
+.donation{
+    padding-bottom: 180px;
+}
+.progress-bar-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+.progress-bar-front{
+    width: 915px;
+    /* width: 93.75%; */
+    height: 2px;
+    background: #72828E;
+    
+    position: absolute;
+}
+.progress-bar-scale{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 955px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 66px;
+}
+
+.feed-a-friend{
+        width: 298px;
+        height: 54px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 25px;
+        border-width: 0;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-left: 342px;
+    }
+    .interactive:hover{
+        background: #E47209;
+    }
+    
+    .interactive:active{
+        background: #4B9200;
+    }
+    .interactive:disabled{
+        background: #767474;;
+    }
+
+input[class="item_input"]{
+    appearance: none;
+    margin: 0;
+
+    font: inherit;
+    background-color: rgba(255, 238, 46, 1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: -21px;
+    left: 26px;
+    cursor: pointer;
+
+}
+.item-label{   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+
+    text-transform: uppercase;
+
+    color: #333B41;
+    cursor: pointer;
+ }
+
+input[class="item_input"]:focus,  input[class="item_input"]:hover {
+    outline: max(2px, 0.15em) solid #E47209;
+    outline-offset: max(2px, 0.15em);
+  }
+input[class="item_input"]:hover{
+    background-color:#E47209;
+  }
+input[class="item_input"]:hover ~ label, input[class="item_input"]:focus ~ label{
+    color:#E47209;
+  }
+
+
+input[id="money-amount"]{
+    background: transparent;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    width: 268px;
+    height: 54px;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #929699;
+  }
+#money-amount:active{
+    border-color:#4B9200;
+}
+
+  input[class="opt-in"]:focus{
+    background-color: #4B9200;
+    border-color: #4B9200;
+  }
+
+  .option-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #333B41;
+  }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dollar-icon{
+
+    width: 10px;
+    height: 20px;
+    margin-right: 17px;
+}
+.input{
+    max-width: 268px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 41px;
+    margin-left: 354px;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 252px;
+    text-align: center;
+
+}
+.options{
+    display: flex;
+    margin-bottom: 31px;
+    max-width: 218px;
+    margin-left: 382px;
+}
+.options-item:first-child{
+    margin-right: 50px;
+}
+
+input[class="opt-in"]{
+    appearance: none;
+    margin: 0;
+
+    font: inherit;
+    background: transparent;
+    border: solid #E47209;
+    border-width: 1px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+ 
+}
+input[class="opt-in"] ~ label{
+    cursor: pointer;
+}
+
+
+
+
+    
+
+
+
 
