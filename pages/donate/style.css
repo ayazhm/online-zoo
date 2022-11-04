@@ -1,0 +1,326 @@
+html{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.logo-image{
+    padding-top: 3px;
+    width: 82px;
+    height: 52px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background-image: url(../../assets/icons/bamboo.png);
+    background-repeat: no-repeat;
+    background-position: 12px 20px;
+}
+
+.header-logo-link{
+    text-decoration: none;
+}
+
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80px;
+    justify-content: center;
+
+}
+.wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 63px;
+}
+
+.header-item{
+    margin-right: 58px; 
+}
+
+.header-last{
+    margin-left: auto;
+}
+.last{
+    margin-right: 0;
+}
+
+.header-link{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.header-link:active, .header-link:hover, .header-link:focus{
+    color: #F9804B; 
+}
+.orange{
+    color: #F9804B;
+}
+
+/*Section intro styles start*/
+
+.intro{
+    height: 780px;
+    background: url(../../assets/images/panda.png) no-repeat center;
+    background-size: cover;
+}
+
+h2.introduction{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 80px;
+    /* or 80px */
+
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 500.31px;
+    height: 400px;
+    color:#FFFFFF
+}
+.title{
+    margin-top: 166px;
+    position: absolute;
+    margin-left: 660px;
+}
+
+
+.toyellow{
+    color: #FFEE2E;
+}
+
+.ellipse{
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    margin-top: 92px;
+    margin-left: 587px;
+    position: absolute;
+}
+
+.overlay{
+    position: relative;
+}
+.main-button{
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border-width: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 626px;
+    margin-left: 763px;
+    position: absolute;
+    
+}
+.interactive:hover{
+    background: #E47209;
+}
+
+.interactive:active{
+    background: #4B9200;
+}
+.interactive:disabled{
+    background: #767474;;
+}
+
+/*footer*/
+footer{
+    background-color: #111115;
+}
+
+.footer-item{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-flex{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 41px;
+    margin-bottom: 50px;
+}
+.footer-display{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-logo{
+    margin-bottom: 68px;
+}
+
+.donate-button{
+    width: 298px;
+    height: 54px;
+    /* orange */
+
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    border-width: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 44px;
+}
+
+.media-icon{
+    width: 26px;
+}
+
+.list-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+.no-style{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-item:first-child{
+    margin-right: 101px;
+    max-width: 300px;
+}
+
+.footer-nav-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    margin-right: 58px
+}
+.footer-nav{
+    margin-top: auto;
+}
+.form-subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.email-input{
+    background: transparent;
+    border: solid;
+    border-color:#E47209;
+    border-width: 0.7px;
+    width: 228px;
+    height: 42px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+.email-input:active{
+    border-color: #4B9200;
+}
+
+.submit-button{
+    width: 129px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #000;
+    background: #F1F3F2;
+
+    border: 1px solid #333B41;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.submit-button:active{
+    color: #4B9200;
+    border: 1px solid #4B9200;
+}
+
+.span-last{
+    margin: 0;
+}
+.figma-author, .rs-school{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF;
+}
+
+.footer-item:last-child{
+    max-width: 380px;
+}
+
+.credits{
+    margin-top: auto;
+    margin-left: auto;
+}
+
